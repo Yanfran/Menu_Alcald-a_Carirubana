@@ -1,0 +1,217 @@
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    /* z-index: -1; */
+}
+
+.cir-menu-right-yan::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: -200px;
+    right: 436px;
+    z-index: 99;
+    border-radius: 49%;
+    background-color: rgba(0,0,0, .7);
+    background-attachment: fixed;
+    background-position: top center;                    
+}
+.cir-menu-right-yan::before{
+    background-image: url(../Imagenes/inicio\ 5.jpg);
+}
+
+.cir-menu-left-yan::after {
+    content: "";
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    height: 199px;
+    top: -64px;
+    right: 568px;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: rgba(0,0,0, .7);
+    background-attachment: fixed;
+    background-position: top center;    
+}
+.cir-menu-left-yan::before{
+    background-image: url(../Imagenes/inicio\ 5.jpg);
+}
+/* //////////////////////////////////////////////// */
+/* TWO REPORTE CONSUMO */
+.two-submenu > .smenu-i > .one-two-submenu{    
+    margin-top: 91px;
+    margin-right: 78px;
+}
+/* TWO REPORTE CONSUMO */
+
+
+/* TWO REPORTE INCIDENCIAS */
+.two-submenu > .smenu-ii > .one-two-submenu{
+    margin-top: 108px;
+    margin-right: 81px;
+    margin-left: -15px;
+}
+.two-submenu > .smenu-ii > .one-two-submenu > img{
+    position: absolute;
+    margin-top: -45px; 
+    margin-left: 14px;    
+}
+/* TWO REPORTE INCIDENCIAS */
+
+/* TWO REPORTE TECNOCIUDAD */
+.two-submenu > .smenu-iii > .one-two-submenu{    
+    margin-top: 104px;
+    margin-right: -25px;
+}
+/* TWO REPORTE TECNOCIUDAD */
+/* //////////////////////////////////////////////// */
+
+
+
+
+/* //////////////////////////////////////////////// */
+/* TWO COMERCIO MENU ESTATICO */
+.three-submenu > .smenu-i > .one-three-submenu{    
+    margin-top: 91px;
+    margin-right: 78px;
+}
+/* TWO COMERCIO MENU ESTATICO */
+
+/* TWO COMERCIO MENU INTERACTIVO */
+.three-submenu > .smenu-ii > .one-three-submenu{
+    margin-top: 108px;
+    margin-right: 81px;
+    margin-left: -15px;
+}
+.three-submenu > .smenu-ii > .one-three-submenu > img{
+    position: absolute;
+    margin-top: -45px; 
+    margin-left: 3px;    
+}
+/* TWO COMERCIO MENU INTERACTIVO */
+
+/* TWO COMERCIO FIDELIZACION */
+.three-submenu > .smenu-iii > .one-three-submenu{    
+    margin-top: 104px;
+    margin-right: -25px;
+}
+/* TWO COMERCIO FIDELIZACION */
+/* //////////////////////////////////////////////// */
+
+
+
+
+
+/* //////////////////////////////////////////////// */
+/* TWO ALIADOS MENU ESTATICO */
+.four-submenu > .smenu-i > .one-four-submenu{    
+    margin-top: 91px;
+    margin-right: 78px;
+}
+/* TWO ALIADOS MENU ESTATICO */
+
+/* TWO ALIADOS MENU INTERACTIVO */
+.four-submenu > .smenu-ii > .one-four-submenu{
+    margin-top: 108px;
+    margin-right: 81px;
+    margin-left: -15px;
+}
+.four-submenu > .smenu-ii > .one-four-submenu > img{
+    position: absolute;
+    margin-top: -36px; 
+    margin-left: 7px!important;    
+}
+/* TWO ALIADOS MENU INTERACTIVO */
+
+/* TWO ALIADOS FIDELIZACION */
+.four-submenu > .smenu-iii > .one-four-submenu{    
+    margin-top: 118px;
+    margin-right: -25px;
+}
+.four-submenu > .smenu-iii > .one-four-submenu > img{
+    position: absolute;
+    margin-top: -45px; 
+    margin-left: 3px;    
+}
+/* TWO ALIADOS FIDELIZACION */
+/* //////////////////////////////////////////////// */
+
+
+
+
+
+/* //////////////////////////////////////////////// */
+/* TWO OTROS ECENSO */
+.five-submenu > .smenu-i > .one-five-submenu{    
+    margin-top: 91px;
+    margin-right: 78px;
+}
+.five-submenu > .smenu-i > .one-five-submenu > img{
+    /* position: absolute; */
+    margin-bottom: -8px; 
+    /* margin-left: 14px;     */
+}
+/* TWO OTROS ECENSO */
+
+/* TWO OTROS CUPONES */
+.five-submenu > .smenu-ii > .one-five-submenu{
+    margin-top: 108px;
+    margin-right: 81px;
+    margin-left: -15px;
+}
+.five-submenu > .smenu-ii > .one-five-submenu > img{
+    position: absolute;
+    margin-top: -36px; 
+    margin-left: 14px;    
+}
+/* TWO OTROS CUPONES */
+/* //////////////////////////////////////////////// */
+
+.target{
+    font-size: 18px!important;
+}
+.cir-menu-left ul li{
+    font-size: 17px!important;
+}
+.dmenu-i:hover {
+    background-color: #ffc338!important;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff!important;
+    /* opacity: .85; */
+}
+.dmenu-ii:hover {
+    background-color: #4caf50!important;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff!important;
+}
+.dmenu-iii:hover {
+    background-color: #673ab7!important;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff!important;
+}
+.dmenu-iv:hover {
+    background-color: #009688!important;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff!important;
+}
+.dmenu-v:hover {
+    background-color: #ff6700!important;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff!important;
+}
+
+
+.img{
+    margin: 0 auto!important;
+    display: flex;
+    justify-content: center;
+}
